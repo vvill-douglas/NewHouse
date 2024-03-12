@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <style>
+        @font-face {
+            font-family: techno;
+            src: url(GenericTechno.otf);
+        }
+        h1{
+            text-align: center;
+            font-family: techno;
+            font-size: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form action="#" method="post">
+            <input type="text" placeholder="Nome de usuário" required>
+            <input type="password" placeholder="Senha" required>
+            <div class="remember">
+                <input type="checkbox" id="remember-me">
+                <label for="remember-me">Manter-me conectado<p></label>
+            </div>
+            <button type="submit">Entrar</button><p>
+            <a href="#" class="forgot-password">Esqueceu a senha?</a><p>
+        </form>
+        <div class="register-link">
+            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        </div>
+    </div>
+</body>
+</html>
